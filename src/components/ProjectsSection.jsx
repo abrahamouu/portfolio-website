@@ -3,6 +3,16 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react";
 const projects = [
   {
     id: 1,
+    title: "Rovera | Real-Time TCP-Controlled UGV Platform",
+    description:
+      "Rovera is a high-speed, sensor-driven micro-rover system that uses TCP socket communication to enable reliable real-time control, telemetry streaming, and autonomous navigation experimentation.",
+    image: "/projects/project5.png",
+    tags: ["ReactJS", "TailWindCSS", "API"],
+    demoUrl: "#",
+    githubUrl: "#",
+  },
+  {
+    id: 2,
     title: "Embedded System | Building Management System",
     description:
       "An IoT-based Building Management System in Python that automates HVAC and lighting using sensor data and multithreading for real-time responsiveness.",
@@ -12,7 +22,7 @@ const projects = [
     githubUrl: "#",
   },
   {
-    id: 2,
+    id: 3,
     title: "MIPS Pipelined Processor",
     description:
       "Designed and implemented a 5-stage pipelined MIPS processor in Verilog, including hazard detecCon and forwarding units to handle structural, data, and control hazards",
@@ -22,7 +32,7 @@ const projects = [
     githubUrl: "#",
   },
   {
-    id: 3,
+    id: 4,
     title: "Movie Lab Video Processing(C/C++) ",
     description:
       "Developed a C/C++ video processing tool that applied image filters, color conversions, and frame transformations to enhance and analyze YUV-format movies.",
@@ -33,7 +43,7 @@ const projects = [
   },
 
   {
-    id: 4,
+    id: 5,
     title: "Autonomous Robot with Object Detection",
     description:
       "Built an autonomous rover in Arduino with object detection and path-tracing capabilities using PixyCam vision and infrared sensors.",
