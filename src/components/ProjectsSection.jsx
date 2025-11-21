@@ -13,6 +13,16 @@ const projects = [
   },
   {
     id: 2,
+    title: "Client Personal Website",
+    description:
+      "A professional personal website that showcases academic achievements, research interests, and projects to support college and graduate school applications.",
+    image: "/projects/clientpersonalwebsite.png",
+    tags: ["ReactJS", "TailWindCSS"],
+    demoUrl: "#",
+    githubUrl: "#",
+  },
+  {
+    id: 3,
     title: "Embedded System | Building Management System",
     description:
       "An IoT-based Building Management System in Python that automates HVAC and lighting using sensor data and multithreading for real-time responsiveness.",
@@ -22,7 +32,7 @@ const projects = [
     githubUrl: "#",
   },
   {
-    id: 3,
+    id: 4,
     title: "MIPS Pipelined Processor",
     description:
       "Designed and implemented a 5-stage pipelined MIPS processor in Verilog, including hazard detecCon and forwarding units to handle structural, data, and control hazards",
@@ -32,7 +42,7 @@ const projects = [
     githubUrl: "#",
   },
   {
-    id: 4,
+    id: 5,
     title: "Movie Lab Video Processing(C/C++) ",
     description:
       "Developed a C/C++ video processing tool that applied image filters, color conversions, and frame transformations to enhance and analyze YUV-format movies.",
@@ -43,7 +53,7 @@ const projects = [
   },
 
   {
-    id: 5,
+    id: 6,
     title: "Autonomous Robot with Object Detection",
     description:
       "Built an autonomous rover in Arduino with object detection and path-tracing capabilities using PixyCam vision and infrared sensors.",
